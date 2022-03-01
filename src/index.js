@@ -4,14 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './Components/Counter';
+import Counters from './Components/Counters';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 
 const Element = <h1>hi whats up </h1>
 ReactDOM.render(
-
-  <Counter/>,
+  <Counters/>
+  ,
   document.getElementById('root')
 );
 
