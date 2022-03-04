@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Element = <h1>hi whats up </h1>
 ReactDOM.render(
+  
   <Counters/>
   ,
   document.getElementById('root')
